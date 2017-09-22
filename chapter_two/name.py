@@ -1,3 +1,5 @@
+# Played with string methods and concatenation.
+
 name = 'ada lovelace'
 print(name.title())
 
