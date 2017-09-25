@@ -1,12 +1,13 @@
 # Using the not [!] operator.
 
-requested_topping = ['mushrooms', 'extra cheese']
+available_toppings = ['mushrooms', 'olives', 'green peppers',
+                      'pepperoni', 'pineapple', 'extra cheese']
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
-if 'mushrooms' in requested_topping:
-    print('Adding mushrooms!')
-if 'pepperoni' in requested_topping:
-    print('Adding pepperoni!')
-if 'extra cheese' in requested_topping:
-    print('Adding extra cheese!')
+for topping in requested_toppings:
+    if topping in available_toppings:
+        print('Adding ' + topping + '.')
+    else:
+        print('Sorry, we do not have ' + topping + '.')
 
 print('\nFinished making your pizza!')
