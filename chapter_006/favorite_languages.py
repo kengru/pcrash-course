@@ -7,6 +7,10 @@ favorite_languages = {
     'phil': 'python'
 }
 
-print('Sarahs favorite languages is ' +
-    favorite_languages['sarah'].title() +
-    '.')
+friends = ['phil', 'sarah']
+for name in favorite_languages:
+    print(name.title())
+
+    if name in friends:
+        print('Hi ' + name.title() + ', I see your favorite language is ' +
+        favorite_languages[name].title() + '!')
