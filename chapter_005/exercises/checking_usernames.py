@@ -7,4 +7,4 @@ for nuser in new_users:
     if nuser.lower() in current_users:
         print('You need to enter another username.')
     else:
-        print('You can enter this username.')
+        print('You can log in.')
