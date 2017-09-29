@@ -1,4 +1,13 @@
 # Using input() to repeat.
 
-message = input('Tell me something: ')
-print(message)
+prompt = input('Tell me something: ')
+prompt += "\nEnter 'quit' to end the program. "
+
+active = True
+while active:
+    message = input(prompt)
+
+    if message == 'quit':
+        active = False
+    else:
+        print(message)
