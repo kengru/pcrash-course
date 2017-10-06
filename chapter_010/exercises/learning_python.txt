@@ -1,0 +1,3 @@
+I learned about how to open files
+and also reading and saving it on a list.
+On my way to learn python.
