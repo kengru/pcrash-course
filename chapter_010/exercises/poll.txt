@@ -1,0 +1,3 @@
+Ken: Everything.
+Rose: Some things.
+Manuel: Javascript.
